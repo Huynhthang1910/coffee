@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+}
+html body{
+    height: 100%;
+}
+.navbar {
+    padding: 8px;
+    color: white;
+    background-color: #000;
+}
+.navbar li {
+    display: inline-block;
+    width: 24.55%;
+    text-align: center;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.banner{
+    background-image: url(./coffeehouse.jpg);
+    height: 342px;
+    background-size: cover;
+    background-position: center;
+    filter:grayscale(50%)
+}
+.brand {
+    font-size: 90px;
+    color: white;
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.time {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    margin: 12px 24px;
+    color: #fff;
+    padding: 4px;
+}
+
+.local {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 12px 24px;
+    color: #fff;
+}
